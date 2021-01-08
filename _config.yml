@@ -1,0 +1,20 @@
+# Site settings
+author: Rafael Garcia
+title: Alfie's Lab
+header-img: img/home-bg.png
+email: rafagrcb@gmail.com
+copyright_name: Rafael Garcia
+description: > # this means to ignore newlines until "baseurl:"
+  Cat Eyes
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  rafagrcb
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
